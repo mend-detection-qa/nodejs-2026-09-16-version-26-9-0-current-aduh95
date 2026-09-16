@@ -1,0 +1,717 @@
+{
+  "schema_version": "1.0",
+  "pm": "npm",
+  "pm_version_tested": "10",
+  "pm_version_under_test": "26.9.0",
+  "generated_at": "2026-09-16T18:36:58Z",
+  "source_file": "/opt/qa-detection-agents/output/_call-7eaf75ad5f8b/npm/bundled-pm-change-node-26-9-0-20260916-183658/package-lock.json",
+  "root": {
+    "name": "bundled-pm-change-node-26-9-0",
+    "version": "1.0.0",
+    "dependencies": [
+      "@mapbox/node-pre-gyp",
+      "argon2",
+      "sharp",
+      "sodium-native"
+    ]
+  },
+  "packages": {
+    "@img/sharp-darwin-arm64": {
+      "version": "0.33.4",
+      "source": "registry",
+      "group": "main",
+      "optional": true,
+      "marker": "os=darwin cpu=arm64",
+      "dependencies": [],
+      "extras_activating_this": []
+    },
+    "@img/sharp-darwin-x64": {
+      "version": "0.33.4",
+      "source": "registry",
+      "group": "main",
+      "optional": true,
+      "marker": "os=darwin cpu=x64",
+      "dependencies": [],
+      "extras_activating_this": []
+    },
+    "@img/sharp-linux-arm": {
+      "version": "0.33.4",
+      "source": "registry",
+      "group": "main",
+      "optional": true,
+      "marker": "os=linux cpu=arm",
+      "dependencies": [],
+      "extras_activating_this": []
+    },
+    "@img/sharp-linux-arm64": {
+      "version": "0.33.4",
+      "source": "registry",
+      "group": "main",
+      "optional": true,
+      "marker": "os=linux cpu=arm64",
+      "dependencies": [],
+      "extras_activating_this": []
+    },
+    "@img/sharp-linux-x64": {
+      "version": "0.33.4",
+      "source": "registry",
+      "group": "main",
+      "optional": true,
+      "marker": "os=linux cpu=x64",
+      "dependencies": [],
+      "extras_activating_this": []
+    },
+    "@img/sharp-win32-x64": {
+      "version": "0.33.4",
+      "source": "registry",
+      "group": "main",
+      "optional": true,
+      "marker": "os=win32 cpu=x64",
+      "dependencies": [],
+      "extras_activating_this": []
+    },
+    "@mapbox/node-pre-gyp": {
+      "version": "1.0.11",
+      "source": "registry",
+      "group": "main",
+      "optional": false,
+      "marker": null,
+      "dependencies": [
+        "detect-libc",
+        "https-proxy-agent",
+        "nopt",
+        "npmlog",
+        "rimraf",
+        "semver",
+        "tar"
+      ],
+      "extras_activating_this": []
+    },
+    "abbrev": {
+      "version": "2.0.0",
+      "source": "registry",
+      "group": "main",
+      "optional": false,
+      "marker": null,
+      "dependencies": [],
+      "extras_activating_this": []
+    },
+    "agent-base": {
+      "version": "7.1.1",
+      "source": "registry",
+      "group": "main",
+      "optional": false,
+      "marker": null,
+      "dependencies": [
+        "debug"
+      ],
+      "extras_activating_this": []
+    },
+    "ansi-regex": {
+      "version": "5.0.1",
+      "source": "registry",
+      "group": "main",
+      "optional": false,
+      "marker": null,
+      "dependencies": [],
+      "extras_activating_this": []
+    },
+    "aproba": {
+      "version": "2.0.0",
+      "source": "registry",
+      "group": "main",
+      "optional": false,
+      "marker": null,
+      "dependencies": [],
+      "extras_activating_this": []
+    },
+    "are-we-there-yet": {
+      "version": "4.0.2",
+      "source": "registry",
+      "group": "main",
+      "optional": false,
+      "marker": null,
+      "dependencies": [
+        "delegates",
+        "readable-stream"
+      ],
+      "extras_activating_this": []
+    },
+    "argon2": {
+      "version": "0.31.2",
+      "source": "registry",
+      "group": "main",
+      "optional": false,
+      "marker": null,
+      "dependencies": [
+        "node-addon-api"
+      ],
+      "extras_activating_this": []
+    },
+    "balanced-match": {
+      "version": "1.0.2",
+      "source": "registry",
+      "group": "main",
+      "optional": false,
+      "marker": null,
+      "dependencies": [],
+      "extras_activating_this": []
+    },
+    "brace-expansion": {
+      "version": "2.0.1",
+      "source": "registry",
+      "group": "main",
+      "optional": false,
+      "marker": null,
+      "dependencies": [
+        "balanced-match"
+      ],
+      "extras_activating_this": []
+    },
+    "brace-expansion@1.1.11": {
+      "version": "1.1.11",
+      "source": "registry",
+      "group": "main",
+      "optional": false,
+      "marker": null,
+      "dependencies": [
+        "balanced-match",
+        "concat-map"
+      ],
+      "extras_activating_this": []
+    },
+    "chownr": {
+      "version": "2.0.0",
+      "source": "registry",
+      "group": "main",
+      "optional": false,
+      "marker": null,
+      "dependencies": [],
+      "extras_activating_this": []
+    },
+    "color": {
+      "version": "4.2.3",
+      "source": "registry",
+      "group": "main",
+      "optional": false,
+      "marker": null,
+      "dependencies": [
+        "color-convert",
+        "color-string"
+      ],
+      "extras_activating_this": []
+    },
+    "color-convert": {
+      "version": "2.0.1",
+      "source": "registry",
+      "group": "main",
+      "optional": false,
+      "marker": null,
+      "dependencies": [
+        "color-name"
+      ],
+      "extras_activating_this": []
+    },
+    "color-name": {
+      "version": "1.1.4",
+      "source": "registry",
+      "group": "main",
+      "optional": false,
+      "marker": null,
+      "dependencies": [],
+      "extras_activating_this": []
+    },
+    "color-string": {
+      "version": "1.9.1",
+      "source": "registry",
+      "group": "main",
+      "optional": false,
+      "marker": null,
+      "dependencies": [
+        "color-name",
+        "simple-swizzle"
+      ],
+      "extras_activating_this": []
+    },
+    "color-support": {
+      "version": "1.1.3",
+      "source": "registry",
+      "group": "main",
+      "optional": false,
+      "marker": null,
+      "dependencies": [],
+      "extras_activating_this": []
+    },
+    "concat-map": {
+      "version": "0.0.1",
+      "source": "registry",
+      "group": "main",
+      "optional": false,
+      "marker": null,
+      "dependencies": [],
+      "extras_activating_this": []
+    },
+    "console-control-strings": {
+      "version": "1.1.0",
+      "source": "registry",
+      "group": "main",
+      "optional": false,
+      "marker": null,
+      "dependencies": [],
+      "extras_activating_this": []
+    },
+    "debug": {
+      "version": "4.3.6",
+      "source": "registry",
+      "group": "main",
+      "optional": false,
+      "marker": null,
+      "dependencies": [
+        "ms"
+      ],
+      "extras_activating_this": []
+    },
+    "delegates": {
+      "version": "1.0.0",
+      "source": "registry",
+      "group": "main",
+      "optional": false,
+      "marker": null,
+      "dependencies": [],
+      "extras_activating_this": []
+    },
+    "detect-libc": {
+      "version": "2.0.3",
+      "source": "registry",
+      "group": "main",
+      "optional": false,
+      "marker": null,
+      "dependencies": [],
+      "extras_activating_this": []
+    },
+    "emoji-regex": {
+      "version": "8.0.0",
+      "source": "registry",
+      "group": "main",
+      "optional": false,
+      "marker": null,
+      "dependencies": [],
+      "extras_activating_this": []
+    },
+    "fs.realpath": {
+      "version": "1.0.0",
+      "source": "registry",
+      "group": "main",
+      "optional": false,
+      "marker": null,
+      "dependencies": [],
+      "extras_activating_this": []
+    },
+    "gauge": {
+      "version": "5.0.2",
+      "source": "registry",
+      "group": "main",
+      "optional": false,
+      "marker": null,
+      "dependencies": [
+        "aproba",
+        "color-support",
+        "console-control-strings",
+        "has-unicode",
+        "signal-exit",
+        "string-width",
+        "strip-ansi",
+        "wide-align"
+      ],
+      "extras_activating_this": []
+    },
+    "glob": {
+      "version": "7.2.3",
+      "source": "registry",
+      "group": "main",
+      "optional": false,
+      "marker": null,
+      "dependencies": [
+        "fs.realpath",
+        "inflight",
+        "inherits",
+        "minimatch@3.1.2",
+        "once",
+        "path-is-absolute"
+      ],
+      "extras_activating_this": []
+    },
+    "has-unicode": {
+      "version": "2.0.1",
+      "source": "registry",
+      "group": "main",
+      "optional": false,
+      "marker": null,
+      "dependencies": [],
+      "extras_activating_this": []
+    },
+    "https-proxy-agent": {
+      "version": "7.0.5",
+      "source": "registry",
+      "group": "main",
+      "optional": false,
+      "marker": null,
+      "dependencies": [
+        "agent-base",
+        "debug"
+      ],
+      "extras_activating_this": []
+    },
+    "inflight": {
+      "version": "1.0.6",
+      "source": "registry",
+      "group": "main",
+      "optional": false,
+      "marker": null,
+      "dependencies": [
+        "once",
+        "wrappy"
+      ],
+      "extras_activating_this": []
+    },
+    "inherits": {
+      "version": "2.0.4",
+      "source": "registry",
+      "group": "main",
+      "optional": false,
+      "marker": null,
+      "dependencies": [],
+      "extras_activating_this": []
+    },
+    "is-arrayish": {
+      "version": "0.3.2",
+      "source": "registry",
+      "group": "main",
+      "optional": false,
+      "marker": null,
+      "dependencies": [],
+      "extras_activating_this": []
+    },
+    "is-fullwidth-code-point": {
+      "version": "3.0.0",
+      "source": "registry",
+      "group": "main",
+      "optional": false,
+      "marker": null,
+      "dependencies": [],
+      "extras_activating_this": []
+    },
+    "minimatch": {
+      "version": "9.0.5",
+      "source": "registry",
+      "group": "main",
+      "optional": false,
+      "marker": null,
+      "dependencies": [
+        "brace-expansion"
+      ],
+      "extras_activating_this": []
+    },
+    "minimatch@3.1.2": {
+      "version": "3.1.2",
+      "source": "registry",
+      "group": "main",
+      "optional": false,
+      "marker": null,
+      "dependencies": [
+        "brace-expansion@1.1.11"
+      ],
+      "extras_activating_this": []
+    },
+    "minipass": {
+      "version": "5.0.0",
+      "source": "registry",
+      "group": "main",
+      "optional": false,
+      "marker": null,
+      "dependencies": [],
+      "extras_activating_this": []
+    },
+    "minizlib": {
+      "version": "2.1.2",
+      "source": "registry",
+      "group": "main",
+      "optional": false,
+      "marker": null,
+      "dependencies": [
+        "minipass",
+        "yallist"
+      ],
+      "extras_activating_this": []
+    },
+    "mkdirp": {
+      "version": "3.0.1",
+      "source": "registry",
+      "group": "main",
+      "optional": false,
+      "marker": null,
+      "dependencies": [
+        "minimatch"
+      ],
+      "extras_activating_this": []
+    },
+    "ms": {
+      "version": "2.1.2",
+      "source": "registry",
+      "group": "main",
+      "optional": false,
+      "marker": null,
+      "dependencies": [],
+      "extras_activating_this": []
+    },
+    "node-addon-api": {
+      "version": "7.1.0",
+      "source": "registry",
+      "group": "main",
+      "optional": false,
+      "marker": null,
+      "dependencies": [],
+      "extras_activating_this": []
+    },
+    "node-gyp-build": {
+      "version": "4.8.1",
+      "source": "registry",
+      "group": "main",
+      "optional": false,
+      "marker": null,
+      "dependencies": [],
+      "extras_activating_this": []
+    },
+    "nopt": {
+      "version": "7.2.1",
+      "source": "registry",
+      "group": "main",
+      "optional": false,
+      "marker": null,
+      "dependencies": [
+        "abbrev"
+      ],
+      "extras_activating_this": []
+    },
+    "npmlog": {
+      "version": "7.0.1",
+      "source": "registry",
+      "group": "main",
+      "optional": false,
+      "marker": null,
+      "dependencies": [
+        "are-we-there-yet",
+        "console-control-strings",
+        "gauge",
+        "set-blocking"
+      ],
+      "extras_activating_this": []
+    },
+    "once": {
+      "version": "1.4.0",
+      "source": "registry",
+      "group": "main",
+      "optional": false,
+      "marker": null,
+      "dependencies": [
+        "wrappy"
+      ],
+      "extras_activating_this": []
+    },
+    "path-is-absolute": {
+      "version": "1.0.1",
+      "source": "registry",
+      "group": "main",
+      "optional": false,
+      "marker": null,
+      "dependencies": [],
+      "extras_activating_this": []
+    },
+    "readable-stream": {
+      "version": "3.6.2",
+      "source": "registry",
+      "group": "main",
+      "optional": false,
+      "marker": null,
+      "dependencies": [
+        "inherits",
+        "string_decoder"
+      ],
+      "extras_activating_this": []
+    },
+    "rimraf": {
+      "version": "3.0.2",
+      "source": "registry",
+      "group": "main",
+      "optional": false,
+      "marker": null,
+      "dependencies": [
+        "glob"
+      ],
+      "extras_activating_this": []
+    },
+    "safe-buffer": {
+      "version": "5.2.1",
+      "source": "registry",
+      "group": "main",
+      "optional": false,
+      "marker": null,
+      "dependencies": [],
+      "extras_activating_this": []
+    },
+    "semver": {
+      "version": "7.6.3",
+      "source": "registry",
+      "group": "main",
+      "optional": false,
+      "marker": null,
+      "dependencies": [],
+      "extras_activating_this": []
+    },
+    "set-blocking": {
+      "version": "2.0.0",
+      "source": "registry",
+      "group": "main",
+      "optional": false,
+      "marker": null,
+      "dependencies": [],
+      "extras_activating_this": []
+    },
+    "sharp": {
+      "version": "0.33.4",
+      "source": "registry",
+      "group": "main",
+      "optional": false,
+      "marker": null,
+      "dependencies": [
+        "color",
+        "detect-libc",
+        "semver",
+        "@img/sharp-darwin-arm64",
+        "@img/sharp-darwin-x64",
+        "@img/sharp-linux-arm",
+        "@img/sharp-linux-arm64",
+        "@img/sharp-linux-x64",
+        "@img/sharp-win32-x64"
+      ],
+      "extras_activating_this": []
+    },
+    "signal-exit": {
+      "version": "4.1.0",
+      "source": "registry",
+      "group": "main",
+      "optional": false,
+      "marker": null,
+      "dependencies": [],
+      "extras_activating_this": []
+    },
+    "simple-swizzle": {
+      "version": "0.2.2",
+      "source": "registry",
+      "group": "main",
+      "optional": false,
+      "marker": null,
+      "dependencies": [
+        "is-arrayish"
+      ],
+      "extras_activating_this": []
+    },
+    "sodium-native": {
+      "version": "4.0.9",
+      "source": "registry",
+      "group": "main",
+      "optional": false,
+      "marker": null,
+      "dependencies": [
+        "node-gyp-build"
+      ],
+      "extras_activating_this": []
+    },
+    "string-width": {
+      "version": "4.2.3",
+      "source": "registry",
+      "group": "main",
+      "optional": false,
+      "marker": null,
+      "dependencies": [
+        "emoji-regex",
+        "is-fullwidth-code-point",
+        "strip-ansi"
+      ],
+      "extras_activating_this": []
+    },
+    "string_decoder": {
+      "version": "1.3.0",
+      "source": "registry",
+      "group": "main",
+      "optional": false,
+      "marker": null,
+      "dependencies": [
+        "safe-buffer"
+      ],
+      "extras_activating_this": []
+    },
+    "strip-ansi": {
+      "version": "6.0.1",
+      "source": "registry",
+      "group": "main",
+      "optional": false,
+      "marker": null,
+      "dependencies": [
+        "ansi-regex"
+      ],
+      "extras_activating_this": []
+    },
+    "tar": {
+      "version": "6.2.1",
+      "source": "registry",
+      "group": "main",
+      "optional": false,
+      "marker": null,
+      "dependencies": [
+        "chownr",
+        "minipass",
+        "minizlib",
+        "mkdirp",
+        "yallist"
+      ],
+      "extras_activating_this": []
+    },
+    "wide-align": {
+      "version": "1.1.5",
+      "source": "registry",
+      "group": "main",
+      "optional": false,
+      "marker": null,
+      "dependencies": [
+        "string-width"
+      ],
+      "extras_activating_this": []
+    },
+    "wrappy": {
+      "version": "1.0.2",
+      "source": "registry",
+      "group": "main",
+      "optional": false,
+      "marker": null,
+      "dependencies": [],
+      "extras_activating_this": []
+    },
+    "yallist": {
+      "version": "4.0.0",
+      "source": "registry",
+      "group": "main",
+      "optional": false,
+      "marker": null,
+      "dependencies": [],
+      "extras_activating_this": []
+    }
+  },
+  "warnings": [
+    "Two versions of minimatch are present: 9.0.5 (hoisted, used by mkdirp) and 3.1.2 (nested under rimraf). Keys disambiguated as minimatch and minimatch@3.1.2.",
+    "Two versions of brace-expansion are present: 2.0.1 (hoisted) and 1.1.11 (nested under rimraf). Keys disambiguated as brace-expansion and brace-expansion@1.1.11.",
+    "Platform-specific @img/sharp-* packages are optional. On any given platform only one will be installed; the lockfile records all. Mend must report all six as optional.",
+    "argon2 and sodium-native use node-gyp at postinstall. If the native build fails under Node 26.9.0 crypto/ffi ABI changes, npm ls may exit non-zero. Mend should fall back to lockfile and still report these packages.",
+    "pm_version_under_test set to Node.js version 26.9.0 (not npm version) \u2014 this is a language-version-axis probe targeting the bundled_pm_change category."
+  ]
+}
